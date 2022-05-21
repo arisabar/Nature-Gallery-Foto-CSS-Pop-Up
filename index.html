@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>Gallery</title>
 </head>
+
 <body>
     <h1>Nature</h1>
     <div class="container">
@@ -20,7 +24,10 @@
 
                 <div class="overlay" id="gambar-1">
                     <a href="#" class="close">x close</a>
+
+                    <a href="#gambar-4" class="prev"><i class='bx bx-chevron-left'></i></a>
                     <img src="img/full/Grasslands_Poppies_Rainbow_Thundercloud_589264_600x800.jpg" alt="grassland">
+                    <a href="#gambar-2" class="next"><i class='bx bx-chevron-right'></i></a>
                 </div>
             </li>
 
@@ -32,7 +39,10 @@
 
                 <div class="overlay" id="gambar-2">
                     <a href="#" class="close">x close</a>
+
+                    <a href="#gambar-1" class="prev"><i class='bx bx-chevron-left'></i></a>
                     <img src="img/full/Mushrooms_nature_Amanita_Grass_Red_577917_600x800.jpg" alt="mushrooms">
+                    <a href="#gambar-3" class="next"><i class='bx bx-chevron-right'></i></a>
                 </div>
             </li>
 
@@ -44,23 +54,32 @@
 
                 <div class="overlay" id="gambar-3">
                     <a href="#" class="close">x close</a>
+
+                    <a href="#gambar-2" class="prev"><i class='bx bx-chevron-left'></i></a>
                     <img src="img/full/Mushrooms_nature_Amanita_Moss_Bokeh_Red_602235_600x800.jpg" alt="mushrooms">
+                    <a href="#gambar-4" class="next"><i class='bx bx-chevron-right'></i></a>
                 </div>
             </li>
 
             <li>
                 <a href="#gambar-4">
-                    <img src="img/thumbs/Sunflowers_Sunrises_and_sunsets_Sky_Fields_Sun_590818_120x120.jpg" alt="sunflowers">
+                    <img src="img/thumbs/Sunflowers_Sunrises_and_sunsets_Sky_Fields_Sun_590818_120x120.jpg"
+                        alt="sunflowers">
                     <span>Sunflowers</span>
                 </a>
 
                 <div class="overlay" id="gambar-4">
                     <a href="#" class="close">x close</a>
-                    <img src="img/full/Sunflowers_Sunrises_and_sunsets_Sky_Fields_Sun_590818_600x800.jpg" alt="sunflowers">
+
+                    <a href="#gambar-3" class="prev"><i class='bx bx-chevron-left'></i></a>
+                    <img src="img/full/Sunflowers_Sunrises_and_sunsets_Sky_Fields_Sun_590818_600x800.jpg"
+                        alt="sunflowers">
+                    <a href="#gambar-1" class="next"><i class='bx bx-chevron-right'></i></a>
                 </div>
             </li>
         </ul>
-        
+
     </div>
 </body>
+
 </html>
